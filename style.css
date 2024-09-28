@@ -148,3 +148,46 @@ footer.text-setter {
     color: azure;
     padding: 12px 0;
 }
+.projectsSection {
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.project-item p {
+    color: #777;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: #7b3ff0; /* A purple color to match your theme */
+}
+
+.project-item a:hover {
+    color: #5a2bb8;
+}
