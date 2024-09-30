@@ -228,13 +228,13 @@ footer.text-setter {
 
 .certification-item a {
     text-decoration: none;
-    color: #7b3ff0; /* Use a purple color for consistency with your theme */
+    color: #7b3ff0; 
 }
 
 .certification-item a:hover {
     color: #5a2bb8;
 }
-/* Styling for Experience Page */
+
 .experienceSection {
     padding: 40px;
     text-align: center;
@@ -268,4 +268,12 @@ footer.text-setter {
 
 .experience-item p {
     color: #777;
+}
+.experience-item a {
+    text-decoration: none;
+    color: #7b3ff0; 
+}
+
+.experience-item a:hover {
+    color: #5a2bb8;
 }
