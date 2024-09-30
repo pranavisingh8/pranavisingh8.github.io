@@ -234,6 +234,7 @@ footer.text-setter {
 .certification-item a:hover {
     color: #5a2bb8;
 }
+/* Styling for Experience Page */
 .experienceSection {
     padding: 40px;
     text-align: center;
@@ -268,4 +269,3 @@ footer.text-setter {
 .experience-item p {
     color: #777;
 }
-
