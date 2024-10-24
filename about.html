@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- CSS link -->
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li> <!-- About file itself -->
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="experience.html">Experience</a></li>
                     <li><a href="certifications.html">Certifications</a></li>
@@ -26,51 +26,52 @@
             </div>
         </nav>
     </header>
+
     <main>
         <section class="firstSection">
             <div class="leftSection">
                 <h1>About Me</h1>
             </div>
             <div class="rightSection">
-                <!-- Optionally, you can add some content here -->
+                <button class="resume-button" id="resumeButton">View Resume</button>
             </div>
         </section>
+
+        <section class="education-section">
+            <h2 class="section-title">Education</h2>
+            <ul class="education-list">
+                <li>Bachelor's in Computer Science and Engineering - Symbiosis International University</li>
+                <li>High School - XYZ School, Pune</li>
+            </ul>
+        </section>
+
+        <section class="achievements-section">
+            <h2 class="section-title">Achievements</h2>
+            <ul class="achievements-list">
+                <li>1st Place in Semester 1 and 3, 2nd Place in Semester 4</li>
+                <li>Completed Cisco Virtual Internship Program</li>
+                <li>Won National Level Dance Competition</li>
+            </ul>
+        </section>
     </main>
+
     <footer>
         <div class="footer">
-            <div class="footer-first">
-                <h3>
-                    Pranavi's Developer Portfolio
-                </h3>
-            </div>
+            <h3>Pranavi's Developer Portfolio</h3>
             <nav>
-                <div class="footer-second">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/pranavisingh8" target="_blank">GitHub</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-third">
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/pranavi-singh-bb5894245/" target="_blank">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-fourth">
-                    <ul>
-                        <li>
-                            <a href="https://www.hackerrank.com/profile/pranavisingh44" target="_blank">Hackerrank</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li><a href="https://github.com/pranavisingh8" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/pranavi-singh-bb5894245/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.hackerrank.com/profile/pranavisingh44" target="_blank">Hackerrank</a></li>
+                </ul>
             </nav>
         </div>
         <div class="text-setter">
             www.pranavisportfolio.com | All rights reserved
         </div>
     </footer>
+
+    <script src="script.js"></script> <!-- JS link -->
 </body>
 
 </html>
