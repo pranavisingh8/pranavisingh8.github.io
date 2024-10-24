@@ -378,3 +378,16 @@ footer {
 .text-setter {
     margin-top: 20px;
 }
+.resume-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block; /* Makes the anchor behave like a button */
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
