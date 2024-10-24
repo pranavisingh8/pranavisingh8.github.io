@@ -5,4 +5,9 @@
             strings: ['Web Developer', 'Web Designer', 'Game Developer', 'Video Editor'],
             typeSpeed: 50,
         });
+        document.getElementById('resumeButton').addEventListener('click', function () {
+            window.open('resume.pdf', '_blank');
+        });
+
     </script>
+
