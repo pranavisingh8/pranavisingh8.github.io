@@ -57,6 +57,7 @@ main hr {
     width: 30%;
 }
 
+/* Main Container - Updated Background */
 .leftSection {
     position: relative;
     overflow: hidden;
@@ -68,8 +69,9 @@ main hr {
     color: #333;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    background: linear-gradient(135deg, #e6e6fa, #c8a2c8); /* Soft lavender gradient */
 }
+
 
 .leftSection::before {
     content: "";
@@ -78,13 +80,14 @@ main hr {
     left: 0;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(138, 43, 226, 0.1) 25%, transparent 25%) 0 0,
-                radial-gradient(circle, rgba(138, 43, 226, 0.1) 25%, transparent 25%) 50px 50px;
+    background: radial-gradient(circle, rgba(138, 43, 226, 0.15) 25%, transparent 25%) 0 0,
+                radial-gradient(circle, rgba(138, 43, 226, 0.15) 25%, transparent 25%) 50px 50px;
     background-size: 100px 100px;
-    opacity: 0.6;
+    opacity: 0.4;
     animation: wave 6s linear infinite;
     z-index: -1;
 }
+
 .description {
     font-size: 1.5rem;
     color: #555;
