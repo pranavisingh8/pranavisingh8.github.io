@@ -57,10 +57,8 @@ main hr {
     width: 30%;
 }
 
-/* Main Container - Updated Background */
+/* Main Container with Clean Background and Abstract Shape */
 .leftSection {
-    position: relative;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,24 +67,26 @@ main hr {
     color: #333;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #e6e6fa, #c8a2c8); /* Soft lavender gradient */
+    background-color: #f7f3fc; /* Light lavender background */
+    position: relative;
+    overflow: hidden;
 }
 
-
+/* Abstract Blob Shape */
 .leftSection::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(138, 43, 226, 0.15) 25%, transparent 25%) 0 0,
-                radial-gradient(circle, rgba(138, 43, 226, 0.15) 25%, transparent 25%) 50px 50px;
-    background-size: 100px 100px;
-    opacity: 0.4;
-    animation: wave 6s linear infinite;
-    z-index: -1;
+    top: -100px;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+    background: #d8b2f0; /* Light purple */
+    border-radius: 50%; /* Makes the shape round */
+    filter: blur(80px); /* Softens the edges for an abstract look */
+    opacity: 0.7;
+    z-index: -1; /* Keeps it behind the content */
 }
+
 
 .description {
     font-size: 1.5rem;
