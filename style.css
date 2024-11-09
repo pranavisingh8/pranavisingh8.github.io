@@ -68,7 +68,7 @@ main hr {
     background: none;
     position: relative;
     overflow: hidden;
-    margin-top: -100px; /* Adjust the value to move the text upwards */
+    margin-top: -50px; /* Adjust the value to move the text upwards */
 }
 
 .leftSection .text-box {
