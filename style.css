@@ -67,7 +67,7 @@ main hr {
     color: #333;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, rgba(16, 4, 127, 0.4), #d8b2f0); /* Light gradient */
+    background:none;
     position: relative;
     overflow: hidden;
 }
