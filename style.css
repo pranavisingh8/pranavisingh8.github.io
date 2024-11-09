@@ -75,7 +75,7 @@ main hr {
     animation: slideIn 2s ease-out;
 }
 
-/* Purple Text */
+
 .purple {
     color: #8a2be2; /* A nice purple shade */
     font-weight: bold;
@@ -83,7 +83,7 @@ main hr {
     animation: pulse 1.5s infinite alternate;
 }
 
-/* Element (e.g., Animated Typing Effect) */
+
 #element {
     display: inline-block;
     font-weight: bold;
