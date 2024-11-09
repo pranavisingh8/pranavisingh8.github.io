@@ -58,10 +58,58 @@ main hr {
 }
 
 .leftSection {
-    font-size: 2rem;
-    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.description {
+    font-size: 1.5rem;
+    color: #555;
+    font-style: italic;
+    animation: slideIn 2s ease-out;
 }
 
+/* Purple Text */
+.purple {
+    color: #8a2be2; /* A nice purple shade */
+    font-weight: bold;
+    position: relative;
+    animation: pulse 1.5s infinite alternate;
+}
+
+/* Element (e.g., Animated Typing Effect) */
+#element {
+    display: inline-block;
+    font-weight: bold;
+    color: #ff6347;
+    animation: blink 0.8s step-end infinite;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); color: #8a2be2; }
+    100% { transform: scale(1.1); color: #a855f7; }
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
 .rightSection img {
     width: 80%;
     margin: 50px 0;
