@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* Apply a gradient background with animation 
+
 body {
     background: linear-gradient(135deg, rgba(16, 4, 127, 0.589), rgba(82, 82, 208, 0.8), rgba(255, 255, 255, 0.1));
     background-size: 400% 400%;
@@ -22,59 +22,9 @@ body {
     100% {
         background-position: 0% 50%;
     }
-} */
+} 
 
-/* Container for floating symbols */
-body {
-    position: relative;
-    background-color: rgba(16, 4, 127, 0.589);
-    color: azure;
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden; /* Prevent scrollbars caused by animation */
-}
 
-.floating-symbols {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none; /* Prevent interaction */
-    z-index: -1;
-    overflow: hidden;
-}
-
-/* Style for individual symbols */
-.symbol {
-    position: absolute;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.1); /* Light color for subtle effect */
-    animation: floatUp 10s linear infinite, sway 3s ease-in-out infinite alternate;
-    opacity: 0.5;
-}
-
-/* Floating upward animation */
-@keyframes floatUp {
-    0% {
-        transform: translateY(100vh);
-        opacity: 0.3;
-    }
-    100% {
-        transform: translateY(-100vh);
-        opacity: 0;
-    }
-}
-
-/* Swaying animation */
-@keyframes sway {
-    0% {
-        transform: translateX(-10px);
-    }
-    100% {
-        transform: translateX(10px);
-    }
-}
 
 nav {
     display: flex;
