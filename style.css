@@ -57,41 +57,13 @@ main hr {
     width: 30%;
 }
 
-/* Main Container with Clean Background and Abstract Shape */
-.leftSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    background: none;
-    position: relative;
-    overflow: hidden;
-}
+<div class="leftSection">
+    <div class="text-box">
+        <p>Hi, My name is <span class="purple">Pranavi Singh</span></p>
+        <p class="description">and I'm a passionate <span class="purple">Developer</span></p>
+    </div>
+</div>
 
-.leftSection::before {
-    content: "";
-    display: none; /* Remove the abstract shape */
-}
-
-
-.description {
-    font-size: 1.5rem;
-    color: #555;
-    font-style: italic;
-    animation: slideIn 4s ease-in-out;
-}
-
-
-.purple {
-    color: #8a2be2; /* A nice purple shade */
-    font-weight: bold;
-    position: relative;
-    animation: pulse 1.5s infinite alternate;
-}
 
 @keyframes wave {
     0% { transform: translateX(0) translateY(0); }
